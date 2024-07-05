@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import TeamCard from "../TeamCard/TeamCard";
 import member1Img from "../../assets/img/member1.png";
 import member2Img from "../../assets/img/member2.jpeg";
+import member3Img from "../../assets/img/member3.jpg";
 import fb from "../../assets/img/fb.png";
 import insta from "../../assets/img/insta.png";
 import linkedIn from "../../assets/img/linkedin.png";
@@ -27,9 +28,9 @@ const members = [
     socialIcons: [fb, be, insta, linkedIn],
   },
   {
-    imgMember: member1Img,
-    name: "Tabish Dehlvi",
-    role: "Developer",
+    imgMember: member3Img,
+    name: "Muhammad Hassan",
+    role: "Frontend Developer",
     socialIcons: [fb, be, insta, linkedIn],
   },
 ];
